@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: peppo-challenge
+    # Use 'python' for the environment, but specify buildpacks below
+    env: python
+    buildPacks:
+      # This is where we explicitly set the buildpacks
+      - url: heroku/nodejs
+      - url: heroku/python
+    # The build command to install dependencies and build the frontend
+    buildCommand: "npm install --prefix client && npm run build --prefix client && pip install -r requirements.txt"
+    # The command to start the server
+    startCommand: "gunicorn app:app"
