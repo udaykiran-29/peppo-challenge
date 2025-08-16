@@ -2,7 +2,7 @@
 
 This is a minimal web application that generates a short video based on a user's text prompt. This project was built to demonstrate AI model integration, cloud deployment, and code quality.
 
-**Live Application Link:** [Your Deployed App URL Will Go Here]
+**Live Application Link:** https://peppo-challenge-nbqr.vercel.app/
 
 ---
 
@@ -32,8 +32,8 @@ Per the challenge's pro tips, this application uses a mock backend to ensure fun
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
+    git clone https://github.com/udaykiran-29/peppo-challenge
+    cd peppo
     ```
 
 2.  **Set up the backend:**
